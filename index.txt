@@ -68,14 +68,14 @@ body {
    
 
 <h3 style="text-align:center">Enter the URL of an image, then click the Analyze image button.</h3>
-<h3 style="text-align:center">Image to analyze:
+<p style="text-align:center">Image to analyze:
 <input type="text" name="inputImage" id="inputImage"
     value="Paste image url" />
-<button onclick="processImage()">Analyze Image</button></h3>
+<button onclick="processImage()">Analyze Image</button></p>
 <div id="wrapper"  display:table;" align="center";>
 
 <div id="imageDiv" style="width:420px; display:table-cell;" align="center">
-       <h3>Source image:</h3>
+       <strong>Source image:</strong>
        <img id="sourceImage" width="400" align="center"/>
 
 </div>
